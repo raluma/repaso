@@ -67,6 +67,7 @@ public class alumno {
        public alumno(){
     }
    public static void main(String []args){
+       System.out.println("version 1.1");
        alumno objeto=new alumno();
        Scanner teclado=new Scanner(System.in);
        System.out.println("introduce el nombre");

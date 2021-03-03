@@ -10,7 +10,7 @@
  */
 public class Calculadora {
     private int operador1;
-    private int operador2;
+    private int oper2;
     private int operador;
 
     /**
@@ -31,14 +31,14 @@ public class Calculadora {
      * @return the operador2
      */
     public int getOperador2() {
-        return operador2;
+        return oper2;
     }
 
     /**
      * @param operador2 the operador2 to set
      */
     public void setOperador2(int operador2) {
-        this.operador2 = operador2;
+        this.oper2 = operador2;
     }
 
     /**
